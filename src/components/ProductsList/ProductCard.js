@@ -64,6 +64,7 @@ function ProductCard({
     product,
     addToCart
 }) {
+    // console.log(product)
     return (
         <Container key={product.id}>
             <Image src={product.image} alt={product.title} />
